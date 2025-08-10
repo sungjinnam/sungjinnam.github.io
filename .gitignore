@@ -1,0 +1,18 @@
+# Ignore any files or directories starting with '__'
+__*
+
+# Jekyll specific ignores
+_site/
+.sass-cache/
+.jekyll-cache/
+Gemfile.lock
+Gemfile
+
+# Ignore Ruby specific files
+*.gem
+*.rbc
+*.rvmrc
+*.ruby-version
+*.ruby-gemset
+vendor/
+.bundle/
