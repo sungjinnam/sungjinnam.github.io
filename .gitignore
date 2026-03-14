@@ -16,3 +16,9 @@ Gemfile
 *.ruby-gemset
 vendor/
 .bundle/
+
+# Ignore LaTeX temporary files
+*.aux
+*.out
+*.log
+*.synctex.gz
